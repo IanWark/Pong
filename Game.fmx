@@ -1,0 +1,160 @@
+object GameForm: TGameForm
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = Single
+  Caption = 'Pong'
+  ClientHeight = 640
+  ClientWidth = 860
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnMouseMove = MouseMove
+  DesignerMasterStyle = 0
+  object Background: TRectangle
+    Align = Contents
+    Fill.Color = claWhite
+    Size.Width = 860.000000000000000000
+    Size.Height = 640.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object Tick: TTimer
+    Enabled = False
+    Interval = 15
+    OnTimer = TickTimer
+    Left = 40
+    Top = 24
+  end
+  object layPause: TLayout
+    Align = Contents
+    Size.Width = 860.000000000000000000
+    Size.Height = 640.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object lPause: TLabel
+      Align = Contents
+      StyledSettings = [Family, Style]
+      Size.Width = 860.000000000000000000
+      Size.Height = 640.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 40.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = 'PAUSED'
+    end
+    object rectPause: TRectangle
+      Align = Contents
+      Fill.Color = claBlack
+      Opacity = 0.500000000000000000
+      Size.Width = 860.000000000000000000
+      Size.Height = 640.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = rectPauseClick
+    end
+    object Line1: TLine
+      Align = Left
+      LineType = Right
+      Size.Width = 10.000000000000000000
+      Size.Height = 480.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Line2: TLine
+      Align = Right
+      LineType = Left
+      Position.X = 630.000000000000000000
+      Size.Width = 10.000000000000000000
+      Size.Height = 480.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Center: TCircle
+      Align = Center
+      Opacity = 0.000000000000000000
+      Size.Width = 1.000000000000000000
+      Size.Height = 1.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Line3: TLine
+      Align = Center
+      LineType = Diagonal
+      Size.Width = 700.000000000000000000
+      Size.Height = 1.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+    object Line4: TLine
+      Align = Center
+      LineType = Diagonal
+      Size.Width = 1.000000000000000000
+      Size.Height = 700.000000000000000000
+      Size.PlatformDefault = False
+      Visible = False
+    end
+  end
+  object layScore: TLayout
+    Align = Top
+    Size.Width = 860.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object lScoreOpponent: TLabel
+      Align = Left
+      StyledSettings = [Family, Style]
+      Margins.Left = 100.000000000000000000
+      Position.X = 100.000000000000000000
+      Size.Width = 120.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 32.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = '0'
+      object lOpponent: TLabel
+        Align = Top
+        StyledSettings = [Family, Style]
+        Margins.Top = 50.000000000000000000
+        Position.Y = 50.000000000000000000
+        Size.Width = 120.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.HorzAlign = Center
+        Text = 'Opponent'
+      end
+    end
+    object lScorePlayer: TLabel
+      Align = Right
+      StyledSettings = [Family, Style]
+      Margins.Right = 100.000000000000000000
+      Position.X = 640.000000000000000000
+      Size.Width = 120.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 32.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = '0'
+      object lPlayer: TLabel
+        Align = Top
+        StyledSettings = [Family, Style]
+        Margins.Top = 50.000000000000000000
+        Position.Y = 50.000000000000000000
+        Size.Width = 120.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.HorzAlign = Center
+        Text = 'Player'
+      end
+    end
+  end
+  object panelMouse: TPanel
+    Align = Contents
+    Opacity = 0.000000000000000000
+    Size.Width = 860.000000000000000000
+    Size.Height = 640.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    OnMouseMove = MouseMove
+  end
+end

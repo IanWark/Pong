@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/07/23 21:42:23.000.428,=C:\Users\allan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/07/23 22:42:26.000.969,=C:\Users\allan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/07/23 22:43:05.000.471,=C:\Users\allan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/07/26 19:36:25.000.707,=C:\Users\allan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/10 04:59:09.000.285,=C:\Users\allan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/10 05:00:04.000.113,=C:\Users\allan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/10 05:08:29.000.115,C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\Unit1.pas=C:\Users\allan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/10 05:08:29.000.115,C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\Unit1.fmx=C:\Users\allan\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2016/08/10 05:08:33.000.139,C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\Pong.dproj=C:\Users\allan\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2016/08/10 05:08:59.000.837,C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\Game.pas=C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\Unit1.pas</Transaction>
+    <Transaction>2016/08/10 05:08:59.000.837,C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\Game.fmx=C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\Unit1.fmx</Transaction>
+    <Transaction>2016/08/10 05:18:42.000.009,=C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\Unit1.pas</Transaction>
+    <Transaction>2016/08/10 05:19:46.000.119,C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\classBall.pas=C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\Unit1.pas</Transaction>
+    <Transaction>2016/08/11 02:21:55.000.845,=C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\Unit1.pas</Transaction>
+    <Transaction>2016/08/11 02:22:03.000.748,C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\Unit1.pas=C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\classPlayerPaddle.pas</Transaction>
+    <Transaction>2016/08/11 02:22:13.000.365,C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\classPlayerPaddle.pas=C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\classPaddle.pas</Transaction>
+    <Transaction>2016/08/11 03:22:52.000.500,=C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\Unit1.pas</Transaction>
+    <Transaction>2016/08/11 03:22:57.000.713,C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\Unit1.pas=C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\Collision.pas</Transaction>
+    <Transaction>2016/08/11 03:24:39.000.783,C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\Collision.pas=</Transaction>
+    <Transaction>2016/08/12 03:22:50.000.450,=C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\Unit1.pas</Transaction>
+    <Transaction>2016/08/12 03:22:55.000.914,C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\GameValues.pas=C:\Users\allan\Documents\Embarcadero\Studio\Projects\Pong\Unit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
